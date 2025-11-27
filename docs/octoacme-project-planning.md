@@ -15,6 +15,20 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 4. Define Definition of Done (DoD)
 5. Identify dependencies and integration points
 6. Create release plan and milestone map
+7. Define test strategy per backlog item
+
+## Definition of Done (DoD) Examples
+A backlog item is "Done" when:
+- [ ] Code complete and merged to main branch
+- [ ] Unit tests written and passing (minimum 80% coverage for new code)
+- [ ] Integration tests added for cross-component functionality
+- [ ] Documentation updated (README, API docs, inline comments as needed)
+- [ ] Observability in place (logging, metrics, alerts configured)
+- [ ] Security review completed (for sensitive features)
+- [ ] Accessibility requirements met (for UI changes)
+- [ ] Code review approved by at least one team member
+- [ ] QA acceptance testing passed
+- [ ] No open critical or high-severity bugs
 
 ## Backlog Item Template
 - Title:
@@ -24,6 +38,28 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Estimate:
 - Owner:
 - Related docs/links:
+- Test strategy:
+
+## Test Strategy Per Backlog Item
+Each backlog item should include a lightweight test strategy that covers:
+
+| Test Type | Required? | Description |
+|-----------|-----------|-------------|
+| Unit Tests | Yes | Test individual functions/methods in isolation |
+| Integration Tests | When applicable | Test interactions between components or services |
+| E2E Tests | For critical paths | Validate end-to-end user flows |
+| Manual QA | For user-facing changes | Exploratory testing and acceptance verification |
+| Performance Tests | For performance-sensitive changes | Load/stress testing if applicable |
+
+**Test Strategy Template for Backlog Items:**
+```
+## Test Strategy
+- [ ] Unit tests: [describe scope]
+- [ ] Integration tests: [describe scope or N/A]
+- [ ] E2E tests: [describe critical paths or N/A]
+- [ ] Manual QA: [describe test scenarios]
+- [ ] Performance: [describe approach or N/A]
+```
 
 ## Sprint / Iteration Planning
 - Timebox planning to agreed sprint length
@@ -41,3 +77,10 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+- [ ] Test strategy defined for each backlog item
+- [ ] Risk Register initialized (see [Risk Register Template](./octoacme-risk-register-template.md))
+
+## Related Templates
+- [Project README Template](./octoacme-project-readme-template.md)
+- [Risk Register Template](./octoacme-risk-register-template.md)
+- [Weekly Status Template](./octoacme-weekly-status-template.md)
