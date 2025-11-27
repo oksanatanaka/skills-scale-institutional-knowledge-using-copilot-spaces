@@ -24,3 +24,13 @@ Quality assurance is embedded throughout our process. We require unit tests for 
 | [Risk Management and Communication](octoacme-risks-and-communication.md) | Risk register maintenance, stakeholder communication templates, and escalation paths |
 | [Release and Deployment](octoacme-release-and-deployment.md) | Standardized release process including pre-release requirements, deployment checklist, and rollback playbook |
 | [Retrospective and Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | How to capture learnings, run retrospectives, and track improvement action items |
+
+## Templates and Checklists
+
+| Template | Description |
+|----------|-------------|
+| [Project README Template](octoacme-project-readme-template.md) | Single source of truth template for project status, scope, timeline, risks, and decisions |
+| [Weekly Status Template](octoacme-weekly-status-template.md) | Standardized weekly status report format for consistent stakeholder communication |
+| [Risk Register Template](octoacme-risk-register-template.md) | Ready-to-use risk register with scoring matrix, categories, and status definitions |
+| [PR Description Template](octoacme-pr-description-template.md) | Pull request description guidance with required sections for quality and traceability |
+| [Release Checklist](octoacme-release-checklist.md) | Consolidated pre-release, deployment, and post-deploy validation checklist |
