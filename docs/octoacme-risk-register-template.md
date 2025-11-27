@@ -83,7 +83,7 @@ Risks should be escalated based on the following criteria:
 | Risk Score ≥ 7 | Immediate PM → Product Lead → Sponsor |
 | No progress on mitigation for 2 weeks | PM → Product Lead |
 | Risk impacts other projects/teams | PM → Cross-team sync |
-| Security-related risk | PM → Security Team (follow incident runbook) |
+| Security-related risk | PM → Security Team (follow your organization's security incident runbook) |
 
 ---
 

@@ -100,7 +100,7 @@ Closes #[issue_number]
 ## Guidelines for Effective PRs
 
 ### PR Size
-- **Target:** ≤ 400 lines of changes when possible
+- **Target:** ≤ 400 lines of changes when possible (additions + deletions combined)
 - **Why:** Smaller PRs get faster, more thorough reviews
 - **If larger:** Consider splitting into logical, incremental PRs
 

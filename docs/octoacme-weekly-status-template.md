@@ -85,7 +85,7 @@ Provide a standardized format for weekly status updates to ensure consistent com
 ---
 
 ## Distribution List
-- **Primary:** [PM, PdM, Tech Lead]
+- **Primary:** [Project Manager, Product Manager, Tech Lead]
 - **CC:** [Stakeholders, Sponsor]
 
 ---
